@@ -7,6 +7,7 @@
 
 #pragma once
 
+#include <memory>
 #include <cstdint>
 #include <thread>
 #include "rdk/core/transfer/can_bus.h"

@@ -8,6 +8,7 @@
 #include "rdk/core/motor/damiao/damiao_controller.h"
 
 DamiaoController::DamiaoController(std::shared_ptr<CanBus> can_bus, Mode mode)
+	:can_bus(can_bus)
 {
     this->can_bus = can_bus;
     this->mode = mode;

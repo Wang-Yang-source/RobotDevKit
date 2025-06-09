@@ -9,6 +9,7 @@
 
 #include <cstdint>
 #include <thread>
+#include <memory>
 #include "rdk/core/transfer/can_bus.h"
 
 class C6xxController
